@@ -17,12 +17,10 @@ const menu = (
               flexDirection: "row",
               justifyContent: "space-between",
               alignItems: "center",
-              padding: 0,
-              margin: 0,
             }}
           >
             <div className="menu-item">{e.label}</div>
-            <p className="menu-item-value">{e.key}</p>
+            <div className="menu-item-value">{e.key}</div>
           </div>
         </Menu.Item>
       );

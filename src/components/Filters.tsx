@@ -16,9 +16,22 @@ const Filters = () => {
             <SearchOutlined style={{ color: colors.grey, fontSize: 18 }} />
           }
         />
-        <ClockCircleOutlined
-          style={{ marginLeft: 5, color: colors.grey, fontSize: 18 }}
-        />
+        <div
+          style={{
+            marginLeft: 5,
+            color: colors.grey,
+            fontSize: 10,
+            width: 24,
+            height: 24,
+            borderRadius: 12,
+            border: `1px solid ${colors.grey}`,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          !
+        </div>
       </div>
       <div
         style={{
